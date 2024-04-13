@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+
+.container{
+    max-width: 1120px;
+    margin: auto;
+}
+
+.top-container{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.add{
+    border: none;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    font-size: 40px;
+}
+
+.top-title{
+    color: #777777;
+    font-size: 40px;
+}
+
+.circle{
+    width: 30px;
+    height: 30px;
+    border-radius: 100px;
+    margin-right: 10px;
+}
+
+.blue{
+    background-color: cornflowerblue;
+}
+
+.lightblue{
+    background-color: rgb(32, 198, 198);
+}
+
+.red{
+    background-color: rgb(227, 114, 114);
+}
+
+.green{
+    background-color: rgb(83, 247, 192);
+}
+.row{
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.row h3{
+    font-size: 20px;
+    color:#777777;
+    font-weight: bold;
+
+}
+
+.bottom-text{
+    display: flex;
+}
+
+.bottom-text input{
+    margin-right: 10px;
+}
+
+.bottom-text p{
+    color: #777777;
+}
+
+.card{
+    width: 350px;
+    min-height: 180px;
+    background-color:rgba(255, 249, 222, 1);
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.card:last-child{
+    margin-right: 0;
+}
+
+.addModal{
+    margin: auto;
+    padding: 40px 40px;
+    width: 600px;
+    border: none;
+}
+
+.dialog-top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.close{
+    font-size: 40px;
+}
+
+.title-regist{
+    margin-bottom: 8px;
+    font-size: 16px;
+}
+
+.title{
+    margin-bottom: 16px;
+    outline: none;
+    border: none;
+    border: 1px solid rgba(226, 231, 236, 1);
+    border-radius: 4px;
+    height: 38px;
+    width: 100%;
+    padding-left: 7px;
+    font-size: 15px;
+}
+
+.description{
+    height: 96px;
+    max-width: 100%;
+    padding-top: 5px;
+}
+
+.text{
+    height: 80px;
+    margin-bottom: 16px;
+    outline: none;
+    border: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.bottom-container{
+    display: flex;
+}
+
+.bottom-left{
+    margin-right: 200px;
+}
+.box{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.edit{
+    border: none;
+    padding: 3px;
+}
+
+.edit:hover{
+    background-color: rgb(106, 148, 225);
+    color: white;
+    transition: 0.3s;
+}
+
+.editTitle{
+    text-align: center;
+}
+  
+.save{
+    width: 62px;
+    height: 42px;
+    border-radius: 4px;
+    background-color: rgba(33, 150, 243, 1);
+    border: none;
+    box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2);
+
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.14);
+
+    box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
+    font-size: 15px;
+    color: rgba(255, 255, 255, 1);
+    margin-right: 10px;
+}
+
+.cancel{
+    border: none;
+    border: 1px solid rgba(33, 150, 243, 0.5);
+    width: 72px;
+    height: 44px;
+    background-color: transparent;
+    border-radius: 4px;
+    font-size: 15px;
+    letter-spacing: 0.46px;
+    color: rgba(33, 150, 243, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.styleText{
+    color: rgba(89, 89, 89, 1);
+    font-size: 15px;
+    min-height: 110px;
+    overflow-wrap: break-word;
+
+}
+
+.line{
+    text-decoration: line-through;
+    text-decoration-thickness: 2px;
+}

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <!-- Верхняя часть -->
+      <div class="top-container">
+        <h1 class="top-title">TODO</h1>
+        <div>
+          <button class="add">+</button>
+        </div>
+      </div>
+
+      <!-- Нижняя часть -->
+      <div class="bottom-container">
+        <div class="bottom-left">
+          <!-- Первый текст -->
+          <div class="row">
+            <div class="circle blue"></div>
+            <h3>work</h3>
+          </div>
+
+          <!-- Второй текст -->
+          <div class="row">
+            <div class="circle lightblue"></div>
+            <h3>study</h3>
+          </div>
+
+          <!-- Третий текст -->
+          <div class="row">
+            <div class="circle red"></div>
+            <h3>entertainment</h3>
+          </div>
+
+          <!-- Четвёртый текст -->
+          <div class="row">
+            <div class="circle green"></div>
+            <h3>family</h3>
+          </div>
+
+          <!-- ! -->
+          <div class="bottom-text">
+            <input type="checkbox" />
+            <p><i>Hide done task</i></p>
+          </div>
+        </div>
+        <div class="box"></div>
+      </div>
+    </div>
+    <dialog class="addModal">
+      <div class="dialog-top">
+        <h1>TASK</h1>
+        <p class="close">&times;</p>
+      </div>
+      <form class="addForm">
+        <p class="title-regist">Title</p>
+        <input type="text" name="title" class="title" /><br />
+        <p class="title-regist">Description</p>
+        <textarea type="text" name="text" class="title description"></textarea>
+        <div style="display: flex">
+          <button class="save" type="submit">save</button>
+          <div class="cancel">cancel</div>
+        </div>
+      </form>
+    </dialog>
+
+    <dialog class="addModal editModal">
+      <div class="dialog-top">
+        <h1>EDIT TASK</h1>
+        <div class="close editClose">&times;</div>
+      </div>
+      <form class="addForm editForm">
+        <p class="title-regist">Title</p>
+        <input type="text" name="title" class="title" /><br />
+        <p class="title-regist">Description</p>
+        <textarea type="text" name="text" class="title description"></textarea>
+        <div style="display: flex">
+          <button class="save" type="submit">save</button>
+          <div class="cancel editCancel">cancel</div>
+        </div>
+      </form>
+    </dialog>
+    <script src="./main.js"></script>
+  </body>
+</html>
